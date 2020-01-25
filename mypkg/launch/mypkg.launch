@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="mypkg" name="count" type="count.py" required="true" />
+  <node pkg="mypkg" name="kaomoji" type="kaomoji.py" required="true" />
+</launch>
